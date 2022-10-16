@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Huzaifa Azhar -- About Me</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="style.css">
+        <style>
+            section {
+                margin-top: 0px;
+            }
+            #pastwork {
+                font-size: 1.5em;
+                list-style: none;
+                margin-top: -10px;
+                margin-bottom: 20px;
+            }
+
+            #pastwork a {
+                color: #95001e;
+            }
+
+            @media screen and (max-width:1100px){
+                body {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                nav ul {
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+
+                nav li {
+                    width: 100px;
+                    margin: 10px;
+                }
+
+
+                nav {
+                    padding: 30px;
+                }
+
+
+                h1 ~ p {
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    font-size: 1.5em;
+                }
+
+                .mb-hidden {
+                    display:none
+                }
+            }
+            
+        </style>
+    </head>
+    <body class="DARK">
+
+        <nav>
+            <button class="btn">
+                <span class="material-symbols-outlined">
+                    light_mode
+                    </span>
+            </button>
+            <div id ="PP">
+                <img id ="ProfileP" src="profile.png" alt="Profile Pic" />
+                <h2 id="name"> Huzaifa Azhar </h2>
+                <p id="dev"> Full Stack Web Developer </p>
+            </div>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="aboutme.html"><li>About</li></a>
+                <a href=""><li>Education</li></a>
+                <a href=""><li>Contact</li></a>
+            </ul>
+        </nav>
+        <section id ="details">
+            <h1><span>About Me</span></h1>
+            <p>I am <strong>Huzaifa Azhar,</strong> a Python and web developer <br>from <b>Pakistan</b><br> I am intermediate student at Punjab College of IT, FSD, Pakistan. <br> I am a self taught programmer.
+                <br> I know <b>HTML, CSS, JavaScript and Python</b>. I started programming back in 2021 and  I am programming for like 1 and half an year.<br>
+                During this time I have created many bots and web applications and here I am providing a link to few of them.
+            </p>
+            <h1><span>Protfolio Projects</span></h1>
+                <ul id="pastwork">
+                    <li><a href="https://twitter.com/bot_psl">Live Cricket Scores Bot</a> <span class="mb-hidden">(To post live scores of cricket matches on twitter) </span></li>
+                    <li><a href="https://twitter.com/analyzeSEO">SEO Analyzer Bot</a> <span class="mb-hidden">(This bot can conduct a quick analysis of the provided link) </span></li>
+                    <li><a href="https://cicket-score.live">Live Cricket Score</a> <span class="mb-hidden">(A web app to provide live scores of cricket matches) </span></li>
+                    <li><a href="https://github.com/BloggingKIng/xray-classifier">Doctor Robo</a><span class="mb-hidden"> (Using AI to check lung scrays) </span></li>
+                </ul>
+
+        </section>
+        <script src="changeColor.js"></script>
+    </body>
+</html>
