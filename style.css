@@ -103,10 +103,6 @@ nav li:hover, .btn:hover {
     font-size: 1.4em;
 }
 
-section {
-    margin-top: 150px;
-}
-
 button.btn {
     width: 50px;
     height: 50px;
@@ -171,10 +167,6 @@ button.btn {
         margin: 20px auto;
     }
 
-    a.btn {
-        display: none;
-    }
-    
 
     h1 {
         font-size: 2.2em;
